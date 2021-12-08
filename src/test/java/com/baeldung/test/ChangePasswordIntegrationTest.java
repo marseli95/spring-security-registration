@@ -134,5 +134,6 @@ public class ChangePasswordIntegrationTest {
         assertEquals(302, response.statusCode());
         assertFalse(response.body().asString().contains("Password updated successfully"));
     }
+    
 
 }
